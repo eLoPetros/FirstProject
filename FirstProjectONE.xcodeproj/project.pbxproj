@@ -44,7 +44,6 @@
 		28D1F2422921597F00883260 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D1F2412921597F00883260 /* PreferenceKeys.swift */; };
 		28D1F2442921627700883260 /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D1F2432921627700883260 /* AnimatableFontModifier.swift */; };
 		28D1F246292169FC00883260 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D1F245292169FC00883260 /* Course.swift */; };
-		28D1F2482922299B00883260 /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D1F2472922299B00883260 /* MatchedView.swift */; };
 		28D1F24A2922988300883260 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D1F2492922988300883260 /* CourseItem.swift */; };
 		28D1F24C29229A1200883260 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D1F24B29229A1200883260 /* CourseView.swift */; };
 		28D1F24E292368AB00883260 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D1F24D292368AB00883260 /* Animations.swift */; };
@@ -74,7 +73,7 @@
 		28525694292667D000E22907 /* InputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyle.swift; sourceTree = "<group>"; };
 		2852569629269B5F00E22907 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		2852569829269C8300E22907 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
-		28D1F20F291E3A0A00883260 /* FirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D1F20F291E3A0A00883260 /* FirstProjectONE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstProjectONE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D1F212291E3A0A00883260 /* FirstProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectApp.swift; sourceTree = "<group>"; };
 		28D1F214291E3A0A00883260 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28D1F216291E3A0B00883260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,7 +90,6 @@
 		28D1F2412921597F00883260 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		28D1F2432921627700883260 /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
 		28D1F245292169FC00883260 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
-		28D1F2472922299B00883260 /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
 		28D1F2492922988300883260 /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
 		28D1F24B29229A1200883260 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		28D1F24D292368AB00883260 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
@@ -118,14 +116,6 @@
 				2841315C2927F54D00034837 /* LibaryView.swift */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		284131552927E7F000034837 /* Удаление */ = {
-			isa = PBXGroup;
-			children = (
-				28D1F2472922299B00883260 /* MatchedView.swift */,
-			);
-			path = "Удаление";
 			sourceTree = "<group>";
 		};
 		284131562927E87800034837 /* Menu */ = {
@@ -200,7 +190,7 @@
 		28D1F210291E3A0A00883260 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28D1F20F291E3A0A00883260 /* FirstProject.app */,
+				28D1F20F291E3A0A00883260 /* FirstProjectONE.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,7 +199,6 @@
 			isa = PBXGroup;
 			children = (
 				28D1F212291E3A0A00883260 /* FirstProjectApp.swift */,
-				284131552927E7F000034837 /* Удаление */,
 				28D1F2382920F05E00883260 /* Navigation */,
 				28D1F2392920F08800883260 /* Views */,
 				28D1F23A2920F0AA00883260 /* Components */,
@@ -291,9 +280,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28D1F20E291E3A0A00883260 /* FirstProject */ = {
+		28D1F20E291E3A0A00883260 /* FirstProjectONE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28D1F21D291E3A0B00883260 /* Build configuration list for PBXNativeTarget "FirstProject" */;
+			buildConfigurationList = 28D1F21D291E3A0B00883260 /* Build configuration list for PBXNativeTarget "FirstProjectONE" */;
 			buildPhases = (
 				28D1F20B291E3A0A00883260 /* Sources */,
 				28D1F20C291E3A0A00883260 /* Frameworks */,
@@ -303,9 +292,9 @@
 			);
 			dependencies = (
 			);
-			name = FirstProject;
+			name = FirstProjectONE;
 			productName = FirstProject;
-			productReference = 28D1F20F291E3A0A00883260 /* FirstProject.app */;
+			productReference = 28D1F20F291E3A0A00883260 /* FirstProjectONE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -323,7 +312,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28D1F20A291E3A0A00883260 /* Build configuration list for PBXProject "FirstProject" */;
+			buildConfigurationList = 28D1F20A291E3A0A00883260 /* Build configuration list for PBXProject "FirstProjectONE" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -336,7 +325,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28D1F20E291E3A0A00883260 /* FirstProject */,
+				28D1F20E291E3A0A00883260 /* FirstProjectONE */,
 			);
 		};
 /* End PBXProject section */
@@ -366,7 +355,6 @@
 				28D1F24C29229A1200883260 /* CourseView.swift in Sources */,
 				284131432927A49E00034837 /* StctionRowView.swift in Sources */,
 				284131412927A3EF00034837 /* CourseSection.swift in Sources */,
-				28D1F2482922299B00883260 /* MatchedView.swift in Sources */,
 				2852568F29256EFB00E22907 /* Suggestion.swift in Sources */,
 				2841314F2927D39E00034837 /* CourseBookItems.swift in Sources */,
 				2841313A292778F600034837 /* Address.swift in Sources */,
@@ -540,7 +528,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Avdiyats-Petros.FirstProject";
+				PRODUCT_BUNDLE_IDENTIFIER = "Avdiyats-Petros.FirstProjectONE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -569,7 +557,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Avdiyats-Petros.FirstProject";
+				PRODUCT_BUNDLE_IDENTIFIER = "Avdiyats-Petros.FirstProjectONE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -580,7 +568,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28D1F20A291E3A0A00883260 /* Build configuration list for PBXProject "FirstProject" */ = {
+		28D1F20A291E3A0A00883260 /* Build configuration list for PBXProject "FirstProjectONE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28D1F21B291E3A0B00883260 /* Debug */,
@@ -589,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28D1F21D291E3A0B00883260 /* Build configuration list for PBXNativeTarget "FirstProject" */ = {
+		28D1F21D291E3A0B00883260 /* Build configuration list for PBXNativeTarget "FirstProjectONE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28D1F21E291E3A0B00883260 /* Debug */,
